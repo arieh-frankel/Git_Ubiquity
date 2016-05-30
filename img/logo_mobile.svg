@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="49.965" height="49.965" viewBox="0 0 844 844">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #006d68;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 833.333px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Calibri";
+      }
+    </style>
+  </defs>
+  <circle cx="422" cy="422" r="422" class="cls-1"/>
+  <text x="414" y="646" class="cls-2"><tspan x="414" class="cls-3">u</tspan></text>
+  <text x="639" y="642" class="cls-2"><tspan x="639" class="cls-3">.</tspan></text>
+</svg>
