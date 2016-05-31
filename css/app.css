@@ -90,7 +90,7 @@ padding: 0;
 
 
 /* *********************************
-Navigation - Playroom desktop
+Navigation - Playroom menu
 ********************************* */
 
 .nav-playroom {
@@ -133,6 +133,10 @@ Hero Section
 .hero p {
 	color: #444;
 	width:80%;
+}
+.hero-image img {
+	width: 100%;
+	min-height: 0;
 }
 
 
