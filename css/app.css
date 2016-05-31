@@ -8,9 +8,6 @@ General
 * {
 	outline: none;
 }
-label {
-color: rgba(225,225,225,0.5);
-}
 
 hr {
 	border-color: rgba(225,225,225,0.2);
@@ -40,7 +37,7 @@ Navigation - mobile
 
 #mobile-menu {
 	background-color: #222;
-	padding: 5px;
+	/*padding: 5px;*/
 }
 
 #mobile-menu li{
@@ -57,9 +54,7 @@ Navigation - mobile
 	color:  rgba(225,225,225,0.8);
 }
 
-/*.js-off-canvas-exit {
-	background:  rgba(0,0,0,0.85);
-}*/
+
 /* *********************************
 Navigation - desktop
 ********************************* */
@@ -90,6 +85,36 @@ padding: 0;
 
 .menu > li > a:hover {
 	background-color: rgba(255,255,255, 0.1);
+
+}
+
+
+/* *********************************
+Navigation - Playroom desktop
+********************************* */
+
+.nav-playroom {
+background-color:  rgba(0,0,0, 0.1);
+height: 60px;
+padding: 0;
+}
+
+.nav-playroom .menu-playroom{
+	line-height: 60px;
+	background-color: transparent;
+}
+
+.menu-playroom > li > a {
+	background-color: transparent;
+	display: inline-block;
+	line-height: 60px;
+	padding-top: 0;
+	padding-bottom: 0;
+	color:  rgba(0,0,0, 0.7);
+}
+
+.menu-playroom > li > a:hover {
+	background-color: rgba(0,0,0, 0.1);
 
 }
 
@@ -172,4 +197,9 @@ Media Query
 	.hero p{
 		width: 100%;
 	}	
+}
+@media (max-width: 639px) {
+	.nav-playroom {
+		display: none;
+	}
 }
