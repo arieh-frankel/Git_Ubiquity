@@ -160,6 +160,11 @@ Main Section
 	color: #444;
 	width:80%;
 }
+.main img {
+	width: 100%;
+	max-width: 424px;
+	/*position: relative;*/
+}
 
 
 
