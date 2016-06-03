@@ -130,7 +130,8 @@ Hero Section
 
 }
 .hero h1,
-.hero p {
+.hero p,
+.main h4 {
 	color: #444;
 	width:80%;
 }
